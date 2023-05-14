@@ -2,7 +2,7 @@
 name = "project-setup-prof"
 version = "0.1.0"
 description = ""
-authors = ["VIktor Kislyak <viktorkislyak1996@gmail.com>"]
+authors = ["Viktor Kislyak <viktorkislyak1996@gmail.com>"]
 readme = "README.md"
 packages = [{include = "project_setup_prof"}]
 
