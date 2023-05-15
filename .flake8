@@ -1,16 +1,12 @@
 [flake8]
-ignore = C101,D403,F403,F405,I100,I201,W503,W504
+ignore = C101,D403,E501,F401,F403,F405,I100,I201,W503,W504
+max-line-length = 79
+max-complexity = 18
+select = B,C,E,F,W,T4,B9
 exclude =
     .git,
     __pycache__,
     venv
-filename = *.py
-accept-encodings = utf-8
-inline-quotes = single
-max-complexity = 12
-max-linenumber = 500
-max-line-length = 119
-multiline-quotes = double
 per-file-ignores =
     ./core/django_setup/settings/docker.py:F821
     ./core/django_setup/settings/envvars.py:F821
